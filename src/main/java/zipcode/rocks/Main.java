@@ -48,15 +48,14 @@ public class Main {
         return newPerson;
     }
 
-
     private List handWrittenLoadOfData() {
-        ArrayList<Person> students = new ArrayList<>();
+        ArrayList<Person> students = new ArrayList<Person>();
 
-        Person newPerson = new Person("Abukar", "Abukar");
-        newPerson.setGithubHandle("abukarabukar");
-        newPerson.setFavoriteColor("yellow");
-        newPerson.setBirthMonth("April");
-        newPerson.setLikePets("true");
+        Person newPerson = new Person("Abukar", "Abukar", handle, "abukarabukar", color, "yellow");
+        newPerson.setHandle("abukarabukar");
+        newPerson.setColor("yellow");
+        newPerson.setMonth("April");
+        newPerson.setPet("true");
         record.add(newPerson);
 
         Person newPerson = new Person("Chaz", "Adams");

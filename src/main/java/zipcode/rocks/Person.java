@@ -1,12 +1,5 @@
 package zipcode.rocks;
 
-//While trying to follow the high level logic I have obviously created many dozens of errors.
-//Instead of trying to fix every single error immediately I an trying to replicate the logic on a high level.
-//My strong fear/aversion to fixing errors immediately - is that I tend to go on a rabbit trail
-//I want to build the frame of the code first, then attack the errors.
-//This may likely be completely counterintuitive to the coding process.
-//The more I focus on details/errors, the slower I tend to go and the more I zoom into the problem.
-//Please advise if I need to completely change the way that I approach coding.
 
 public class Person {
     private String firstname;
@@ -14,9 +7,8 @@ public class Person {
     private String color;
     private String month;
     private String pet;
-    private String handle
+    private String handle;
 
-    //Looking for where / how to add the person
     public Person(String fname, String lname, String color, String month, String pet, String handle) {
         this.firstname = fname;
         this.lastname = lname;
@@ -68,5 +60,8 @@ public class Person {
     }
     public String getHandle() {
         return handle;
+    }
+
+    public void setPet(String aTrue) {
     }
 }
